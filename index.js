@@ -1,9 +1,9 @@
 let idade = 17;
 const anoNascimento = 2007;
 let anoAtual = 2024;
-const nome Completo = "Marcus Vinícius Correia";
+const nomeCompleto = "Marcus Vinícius Correia";
 
-console.log( "Meu nome é " + nomeCompleto + " nascido no ano de " + ano Nascimento + " e no ano atual " + anoAtual + " completo " + idade + " anos ");
+console.log( "Meu nome é " + nomeCompleto + " nascido no ano de " + anoNascimento + " e no ano atual " + anoAtual + " completo " + idade + " anos ");
 
 anoAtual = anoAtual + 1;
 
@@ -23,3 +23,8 @@ const listaDeDestinos = new Array(
 
 console.log(listaDeDestinos);
 console.log(listaDeDestinos[4]);
+listaDeDestinos.push("Coronel Vivida")
+listaDeDestinos.push("Estocolmo")
+listaDeDestinos.push("Liubliana")
+listaDeDestinos.push("Roma")
+console.log(listaDeDestinos);
